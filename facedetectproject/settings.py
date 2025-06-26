@@ -32,8 +32,10 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # React dev server
+    "https://face-detection-frontend-alpha.vercel.app",
 ]
+CORS_ALLOW_ALL_ORIGINS = True
+
 
 
 # Application definition
