@@ -25,8 +25,9 @@ SECRET_KEY = 'django-insecure-+6@77zd_8hwpfyopf45k2$mtc@-kwr)tc*dp)%l&ec2%^)9a-w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ["face-detection-django.onrender.com",  # Your Render domain
+    "localhost",
+    "127.0.0.1",]
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
